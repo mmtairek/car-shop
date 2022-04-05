@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7y6aP8Hl0+1WCOG9KWUUTszYstS4wt3u/IrSmAGFt/LwY2ZUjRnXKLh2TyzCJlNpThy2xYXZ3s8ijHRGRMtiuA==",
+  "dgSpecHash": "fdDMTSJuoWD7atQkMKvcXH18MyLGEGr/XVa5wVYzzriw/+fd3PVqop2kMKgPCR7In8jB0Ox2orThfiJLYF9uUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mmtairek\\Desktop\\CarShop\\ShopAPI\\ShopAPI\\ShopAPI.csproj",
+  "projectFilePath": "C:\\Users\\mmtairek\\Documents\\GitHub\\carshop\\ShopAPI\\ShopAPI\\ShopAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mmtairek\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.15\\microsoft.data.sqlite.core.5.0.15.nupkg.sha512",
     "C:\\Users\\mmtairek\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",

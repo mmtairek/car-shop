@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mmtairek\\Desktop\\CarShop\\ShopAPI\\ShopAPI\\ShopAPI.csproj": {}
+    "C:\\Users\\mmtairek\\Documents\\GitHub\\carshop\\ShopAPI\\ShopAPI\\ShopAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mmtairek\\Desktop\\CarShop\\ShopAPI\\ShopAPI\\ShopAPI.csproj": {
+    "C:\\Users\\mmtairek\\Documents\\GitHub\\carshop\\ShopAPI\\ShopAPI\\ShopAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mmtairek\\Desktop\\CarShop\\ShopAPI\\ShopAPI\\ShopAPI.csproj",
+        "projectUniqueName": "C:\\Users\\mmtairek\\Documents\\GitHub\\carshop\\ShopAPI\\ShopAPI\\ShopAPI.csproj",
         "projectName": "ShopAPI",
-        "projectPath": "C:\\Users\\mmtairek\\Desktop\\CarShop\\ShopAPI\\ShopAPI\\ShopAPI.csproj",
+        "projectPath": "C:\\Users\\mmtairek\\Documents\\GitHub\\carshop\\ShopAPI\\ShopAPI\\ShopAPI.csproj",
         "packagesPath": "C:\\Users\\mmtairek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mmtairek\\Desktop\\CarShop\\ShopAPI\\ShopAPI\\obj\\",
+        "outputPath": "C:\\Users\\mmtairek\\Documents\\GitHub\\carshop\\ShopAPI\\ShopAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

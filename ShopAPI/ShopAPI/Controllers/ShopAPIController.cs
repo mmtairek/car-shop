@@ -34,7 +34,7 @@ namespace ShopAPI.Controllers
 
         [HttpGet]
         [Route("/[controller]/[action]")]
-        public IEnumerable<ViewVehicle> ImportCars()
+        public IEnumerable<Warehouse> ImportCars()
         {
             Assembly currentAssem = Assembly.GetExecutingAssembly();
             string asstesFolder = Path.GetDirectoryName(currentAssem.Location) + "/Assets/";
@@ -72,9 +72,7 @@ namespace ShopAPI.Controllers
                 }
             }
 
-            VehicleControl cControl = new VehicleControl();
-            return cControl.GetAllCars();
-            //return whControl.GetAllWarehouses();
+            return whControl.GetAllWarehouses();
         }
 
         [HttpGet]
@@ -82,7 +80,7 @@ namespace ShopAPI.Controllers
         public IEnumerable<ViewVehicle> GetAllCars()
         {
             VehicleControl cControl = new VehicleControl();
-            return cControl.GetAllCars();
+            return cControl.GetAllVehicles();
         }
     }
 
