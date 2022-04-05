@@ -1,0 +1,14 @@
+#divCarsList{
+    display: inline-block;
+    width: 30%;
+}
+
+#divCarDetail{
+    position: fixed;
+    display: inline-block;
+    width: 60%;
+    margin-left: 30px;
+    height: 100%;
+    overflow-x: hidden;
+    
+}

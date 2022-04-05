@@ -1,0 +1,9 @@
+<div class="list-group-item" [id]="'carItem_' + carItem['id']"
+    [ngClass]="{'car-item-selectable': carItem['isLicensed']}" 
+    (click)="onCarSelected($event)">
+    <span class="lb-car-title">{{carItem["make"]}}</span>
+    <span class="lb-car-info">{{carItem["model"]}} - {{carItem["year"]}}</span>
+    <img title="View Car Details" *ngIf="carItem['isLicensed']"
+        src="assets/images/view-details.png" 
+        class="lb-car-view-detail"/>
+</div>

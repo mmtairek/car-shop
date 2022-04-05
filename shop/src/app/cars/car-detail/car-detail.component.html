@@ -1,0 +1,28 @@
+<div *ngIf="selectedCar != null || selectedCar != undefined" class="div-car-detail">
+    <div class="car-detail-content">
+        <div class="div-car-detail-header">
+            <span class="lb-header">{{selectedCar["make"]}} - {{selectedCar['model']}} - {{selectedCar['year']}}</span>
+        </div>
+        <div class="div-car-more-detail">
+            {{selectedCar['warehouse']}} - {{selectedCar['location']}}
+        </div>
+        <div class="div-car-footer">
+            Added On: {{selectedCar['addedDate'] | date:'dd/MM/yyyy'}}
+            <div class="div-car-price">
+                {{numberFormat(selectedCar['price'])}} <span class="lb-currency">{{selectedCar['currency']}}</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="div-car-footer-icons">
+        <img class="" src="assets/images/like.png" />
+        <img *ngIf="!selectedCar['isAddedToCart']" src="assets/images/add-cart.png" (click)="onAddToCart()" />
+        <img class="img-top-10" *ngIf="selectedCar['isAddedToCart']" src="assets/images/added-cart.png" />
+        <img class="img-top-10" src="assets/images/bookmark.png" />
+        <img class="img-top-10" src="assets/images/reminder.png" />
+    </div>
+
+    <div class="div-cart">
+        <app-cart (removeFromCart)="onRemoveFromCart($event)"></app-cart>
+    </div>
+</div>

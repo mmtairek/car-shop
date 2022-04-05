@@ -1,0 +1,20 @@
+.list-group{
+    width: 75%;
+}
+
+.div-cart-item{
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.img-remove-from-cart{
+    float: right;
+    margin-top: -5px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.div-cart-checkout{
+    text-align: right;
+}

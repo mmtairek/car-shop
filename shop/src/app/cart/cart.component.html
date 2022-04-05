@@ -1,0 +1,11 @@
+<div class="list-group">
+    <div *ngFor="let car of addedCars" class="list-group-item div-cart-item">
+        {{car['make']}} - {{car['model']}} - {{car['year']}} [{{numberFormat(car['price'])}} {{car['currency']}}]
+        <img class="img-remove-from-cart" src="assets/images/remove-from-cart.png" 
+            (click)="onRemoveFromCart(car)" />
+    </div>
+    <div *ngIf="totalCheckout != 0"
+        class="list-group-item div-cart-item div-cart-checkout">
+        Checkout: {{numberFormat(totalCheckout)}} USD
+    </div>
+</div>

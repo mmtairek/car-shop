@@ -1,0 +1,23 @@
+.car-item-selectable{
+    cursor: pointer;
+}
+
+.car-item-selectable:hover{
+    background-color: aqua;
+}
+
+.list-group-item.selected{
+    background-color: aqua;
+}
+
+.lb-car-title{
+    font-weight: bold;
+    display: block;
+    font-size: 18px;
+}
+
+.lb-car-view-detail{
+    float: right;
+    margin-top: -25px;
+    height: 40px;
+}

@@ -1,0 +1,6 @@
+<div class="row">
+    <div class="list-group">
+            <app-car-item *ngFor="let car of cars"
+                [car]="car" (carSelected)="onSelectedCarChanged(car)"></app-car-item>
+    </div>
+</div>

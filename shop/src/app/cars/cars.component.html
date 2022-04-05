@@ -1,0 +1,8 @@
+<div class="row">
+  <div id="divCarsList" class="">
+    <app-car-list (selectedCarChanged)="showCarDetails($event)"></app-car-list>
+  </div>
+  <div id="divCarDetail">
+    <app-car-detail [car]="selectedCar"></app-car-detail>
+  </div>
+</div>
